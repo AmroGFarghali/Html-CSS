@@ -1,0 +1,90 @@
+  .sub-button
+  {
+      background-color: rgb(160, 7, 7);
+      color: white;
+      border: none;
+      border-radius: 2px; /* creates rounded corners */
+      cursor: pointer;  /* chagnes cursor to hand when hovering*/
+      padding: 10px; /* this adds space inside of the button*/
+      margin-right: 8px ;  /* creates space between this button an d one next to it on the right(OUTSIDE OF ELEMENT)*/
+      transition: opacity, color 1s; /* this makes the opacity transition smoothly and any other property*/
+      /* do not add it when you hover, cause transitions wont active whjen you de hover */
+      vertical-align: top; 
+      /* aligns the buttons by top of page */
+  } 
+
+  .sub-button:hover /* this is the css notation that targets the button when you hover over it and applies the following css properties
+ */ 
+ /* this is called a pseudo class(:hover) */
+  {     
+    /* opacity fades thje button out */
+      opacity: 0.7;  
+      color: blue;
+
+  }
+  
+  .sub-button:active  
+  /* this is the css for when you press a button */
+ /* this is called a pseudo class(:hover) */
+  {
+      opacity: 0.5;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .join-button
+  {
+      background-color: rgb(255, 255, 255);
+      color: blue;
+      border-style: solid; /*styles the border*/
+      border-color: rgb(0, 195, 255);
+      border-width: 1px; /*thicnkess of the border*/
+      height: 36px;
+      width: 70px;
+      border-radius: 2px; /* creates rounded corner */
+      cursor: pointer; 
+      
+  }
+  .tweet-button
+  {
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border-style: solid; /*styles the border*/
+      border-color: rgb(0, 195, 255);
+      border-width: 1px; /*thicnkess of the border*/
+      font-weight: bold;
+      height: 36px;
+      width: 70px;
+      border-radius: 50px; /* creates rounded corner */
+      cursor: pointer; 
+      margin-left: 8px;
+      transition: box-shadow 0.15s; 
+      vertical-align: top;
+  }
+
+
+  .tweet-button:hover
+  {
+
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15); /*  creates a shadow over a button, has four values, horizontal vertical and blur and color*/ 
+
+
+  }
+
+
+
+

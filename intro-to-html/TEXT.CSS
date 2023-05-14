@@ -1,0 +1,53 @@
+p{
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* this changes all paragraphs  to arial */
+
+
+
+.video-title
+{
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px; /*makes text wrap around*/
+  line-height: 24px; /*adds space between first and secopnd line*/
+  margin-bottom: 20px;
+  
+  text-align: justify; /* aligns text to center*/
+}
+
+.video-stats{
+
+  font-size: 14px;
+  margin-bottom: 5px;
+
+  
+}
+
+
+.video-description
+{
+
+  font-size: 14px;
+  width: 300px;
+  margin-top: 100px;
+  line-height: 22px;
+}
+
+.shop-p
+{
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.shop-elem:hover
+{
+  
+  text-decoration: underline;
+  cursor: pointer;
+}
+

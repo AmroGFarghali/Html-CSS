@@ -1,0 +1,73 @@
+.header {
+  display: flex; /*we have to make the main container flex just so all child divs are inline and follow flexbox rules */
+  height: 57px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.left-section {
+  display: flex;
+
+  align-items: center; /*FOR THIS TO WORK AND TO ALIGN
+  YOU NEED TO PUT FLEX ONTO LEFT SECTION AND NOT ALIGN 
+  THE MAIN FLEXBOX
+  
+  THIS PROPERTY ONLY WORKS WITH FLEXBOX*/
+}
+.youtube-logo {
+  height: 23px;
+}
+.hamburger-menu {
+  margin-right: 24px;
+  margin-left: 24px;
+  height: 26px;
+}
+.middle-section {
+  margin-left: 70px;
+  margin-right: 35px;
+  display: flex; /*puts flex on child elements which are search and button*/
+  flex: 1; /*this is flex:1 based on parent flexbox which is header*/
+  max-width: 500px;
+  align-items: center;
+}
+.search-bar {
+  height: 38px;
+  flex: 1; /*WE PUT FLEX HERE JUST SO WHEN SMALL SCREENS 
+  DONT HAVE FORCED WIDTH*/
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  margin-right: 0;
+  font-size: 16px;
+  padding-left: 10px; /*space inside the search*/
+}
+.search-bar::placeholder {
+  font-family: Roboto;
+  font-size: 18px;
+}
+.search-button {
+  height: 42px;
+  width: 75px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  margin-left: -1px;
+}
+.search-button img {
+  height: 28px;
+}
+.voice-search-icon {
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 20px; /*half width or heiht makes it circle*/
+  border-width: 0;
+  width: 40px;
+  background-color: rgb(251, 249, 249);
+}
+.voice-search-icon img {
+  height: 28px;
+}
+.right-section {
+  background-color: blue;
+  width: 200px;
+}
